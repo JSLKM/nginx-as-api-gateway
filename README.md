@@ -7,6 +7,8 @@
 `docker exec -it api-gateway bash` to check etc/nginx/conf.d folder
 `docker exec -it api-gateway nginx -s reload` to reload
 
+`docker kill -s HUP api-gateway`
+
 ## Services
 Run node service: `node services/node/index.js`
 Run python service: `python3 services/flask/main.py`
@@ -18,3 +20,4 @@ Run python service: `python3 services/flask/main.py`
 ### Summary
 
 - 1) `curl localhost:8080`
+- 2) `curl localhost:8080` fix json response
