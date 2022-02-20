@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-app.get('/node', (req, res) => {
+app.get('/who', (req, res) => {
   res.send({service: 'node'})
 })
 

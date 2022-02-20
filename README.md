@@ -21,3 +21,4 @@ Run python service: `python3 services/flask/main.py`
 
 - 1) `curl localhost:8080`
 - 2) `curl localhost:8080` fix json response
+- 3) `curl localhost:8080/api/services/node` after starting services

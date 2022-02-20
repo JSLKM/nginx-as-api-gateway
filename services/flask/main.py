@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
     return 'Test Predictor'
 
-@app.route('/flask')
+@app.route('/who')
 def predict():
     result= jsonify({'services': 'flask'})
     return result
